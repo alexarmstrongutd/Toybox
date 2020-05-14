@@ -1,0 +1,6 @@
+config
+generated
+lib
+kconfig
+toys
+kconfig/lxdialog
