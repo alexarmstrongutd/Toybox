@@ -1,0 +1,1663 @@
+getenforce: toys/android/getenforce.c *.[ch] lib/*.[ch]
+	scripts/single.sh getenforce
+
+test_getenforce:
+	scripts/test.sh getenforce
+
+getprop: toys/android/getprop.c *.[ch] lib/*.[ch]
+	scripts/single.sh getprop
+
+test_getprop:
+	scripts/test.sh getprop
+
+load_policy: toys/android/load_policy.c *.[ch] lib/*.[ch]
+	scripts/single.sh load_policy
+
+test_load_policy:
+	scripts/test.sh load_policy
+
+log: toys/android/log.c *.[ch] lib/*.[ch]
+	scripts/single.sh log
+
+test_log:
+	scripts/test.sh log
+
+restorecon: toys/android/restorecon.c *.[ch] lib/*.[ch]
+	scripts/single.sh restorecon
+
+test_restorecon:
+	scripts/test.sh restorecon
+
+runcon: toys/android/runcon.c *.[ch] lib/*.[ch]
+	scripts/single.sh runcon
+
+test_runcon:
+	scripts/test.sh runcon
+
+sendevent: toys/android/sendevent.c *.[ch] lib/*.[ch]
+	scripts/single.sh sendevent
+
+test_sendevent:
+	scripts/test.sh sendevent
+
+setenforce: toys/android/setenforce.c *.[ch] lib/*.[ch]
+	scripts/single.sh setenforce
+
+test_setenforce:
+	scripts/test.sh setenforce
+
+setprop: toys/android/setprop.c *.[ch] lib/*.[ch]
+	scripts/single.sh setprop
+
+test_setprop:
+	scripts/test.sh setprop
+
+start: toys/android/start.c *.[ch] lib/*.[ch]
+	scripts/single.sh start
+
+test_start:
+	scripts/test.sh start
+
+stop: toys/android/start.c *.[ch] lib/*.[ch]
+	scripts/single.sh stop
+
+test_stop:
+	scripts/test.sh stop
+
+hello: toys/example/hello.c *.[ch] lib/*.[ch]
+	scripts/single.sh hello
+
+test_hello:
+	scripts/test.sh hello
+
+hostid: toys/example/hostid.c *.[ch] lib/*.[ch]
+	scripts/single.sh hostid
+
+test_hostid:
+	scripts/test.sh hostid
+
+skeleton: toys/example/skeleton.c *.[ch] lib/*.[ch]
+	scripts/single.sh skeleton
+
+test_skeleton:
+	scripts/test.sh skeleton
+
+skeleton_alias: toys/example/skeleton.c *.[ch] lib/*.[ch]
+	scripts/single.sh skeleton_alias
+
+test_skeleton_alias:
+	scripts/test.sh skeleton_alias
+
+test_human_readable: toys/example/test_human_readable.c *.[ch] lib/*.[ch]
+	scripts/single.sh test_human_readable
+
+test_test_human_readable:
+	scripts/test.sh test_human_readable
+
+test_many_options: toys/example/test_many_options.c *.[ch] lib/*.[ch]
+	scripts/single.sh test_many_options
+
+test_test_many_options:
+	scripts/test.sh test_many_options
+
+test_scankey: toys/example/test_scankey.c *.[ch] lib/*.[ch]
+	scripts/single.sh test_scankey
+
+test_test_scankey:
+	scripts/test.sh test_scankey
+
+test_utf8towc: toys/example/test_utf8towc.c *.[ch] lib/*.[ch]
+	scripts/single.sh test_utf8towc
+
+test_test_utf8towc:
+	scripts/test.sh test_utf8towc
+
+dmesg: toys/lsb/dmesg.c *.[ch] lib/*.[ch]
+	scripts/single.sh dmesg
+
+test_dmesg:
+	scripts/test.sh dmesg
+
+hostname: toys/lsb/hostname.c *.[ch] lib/*.[ch]
+	scripts/single.sh hostname
+
+test_hostname:
+	scripts/test.sh hostname
+
+killall: toys/lsb/killall.c *.[ch] lib/*.[ch]
+	scripts/single.sh killall
+
+test_killall:
+	scripts/test.sh killall
+
+md5sum: toys/lsb/md5sum.c *.[ch] lib/*.[ch]
+	scripts/single.sh md5sum
+
+test_md5sum:
+	scripts/test.sh md5sum
+
+sha1sum: toys/lsb/md5sum.c *.[ch] lib/*.[ch]
+	scripts/single.sh sha1sum
+
+test_sha1sum:
+	scripts/test.sh sha1sum
+
+sha224sum: toys/lsb/md5sum.c *.[ch] lib/*.[ch]
+	scripts/single.sh sha224sum
+
+test_sha224sum:
+	scripts/test.sh sha224sum
+
+sha256sum: toys/lsb/md5sum.c *.[ch] lib/*.[ch]
+	scripts/single.sh sha256sum
+
+test_sha256sum:
+	scripts/test.sh sha256sum
+
+sha384sum: toys/lsb/md5sum.c *.[ch] lib/*.[ch]
+	scripts/single.sh sha384sum
+
+test_sha384sum:
+	scripts/test.sh sha384sum
+
+sha512sum: toys/lsb/md5sum.c *.[ch] lib/*.[ch]
+	scripts/single.sh sha512sum
+
+test_sha512sum:
+	scripts/test.sh sha512sum
+
+mknod: toys/lsb/mknod.c *.[ch] lib/*.[ch]
+	scripts/single.sh mknod
+
+test_mknod:
+	scripts/test.sh mknod
+
+mktemp: toys/lsb/mktemp.c *.[ch] lib/*.[ch]
+	scripts/single.sh mktemp
+
+test_mktemp:
+	scripts/test.sh mktemp
+
+mount: toys/lsb/mount.c *.[ch] lib/*.[ch]
+	scripts/single.sh mount
+
+test_mount:
+	scripts/test.sh mount
+
+nfsmount: toys/lsb/mount.c *.[ch] lib/*.[ch]
+	scripts/single.sh nfsmount
+
+test_nfsmount:
+	scripts/test.sh nfsmount
+
+passwd: toys/lsb/passwd.c *.[ch] lib/*.[ch]
+	scripts/single.sh passwd
+
+test_passwd:
+	scripts/test.sh passwd
+
+pidof: toys/lsb/pidof.c *.[ch] lib/*.[ch]
+	scripts/single.sh pidof
+
+test_pidof:
+	scripts/test.sh pidof
+
+seq: toys/lsb/seq.c *.[ch] lib/*.[ch]
+	scripts/single.sh seq
+
+test_seq:
+	scripts/test.sh seq
+
+su: toys/lsb/su.c *.[ch] lib/*.[ch]
+	scripts/single.sh su
+
+test_su:
+	scripts/test.sh su
+
+sync: toys/lsb/sync.c *.[ch] lib/*.[ch]
+	scripts/single.sh sync
+
+test_sync:
+	scripts/test.sh sync
+
+umount: toys/lsb/umount.c *.[ch] lib/*.[ch]
+	scripts/single.sh umount
+
+test_umount:
+	scripts/test.sh umount
+
+ftpget: toys/net/ftpget.c *.[ch] lib/*.[ch]
+	scripts/single.sh ftpget
+
+test_ftpget:
+	scripts/test.sh ftpget
+
+ftpput: toys/net/ftpget.c *.[ch] lib/*.[ch]
+	scripts/single.sh ftpput
+
+test_ftpput:
+	scripts/test.sh ftpput
+
+ifconfig: toys/net/ifconfig.c *.[ch] lib/*.[ch]
+	scripts/single.sh ifconfig
+
+test_ifconfig:
+	scripts/test.sh ifconfig
+
+microcom: toys/net/microcom.c *.[ch] lib/*.[ch]
+	scripts/single.sh microcom
+
+test_microcom:
+	scripts/test.sh microcom
+
+nc: toys/net/netcat.c *.[ch] lib/*.[ch]
+	scripts/single.sh nc
+
+test_nc:
+	scripts/test.sh nc
+
+netcat: toys/net/netcat.c *.[ch] lib/*.[ch]
+	scripts/single.sh netcat
+
+test_netcat:
+	scripts/test.sh netcat
+
+netstat: toys/net/netstat.c *.[ch] lib/*.[ch]
+	scripts/single.sh netstat
+
+test_netstat:
+	scripts/test.sh netstat
+
+rfkill: toys/net/rfkill.c *.[ch] lib/*.[ch]
+	scripts/single.sh rfkill
+
+test_rfkill:
+	scripts/test.sh rfkill
+
+tunctl: toys/net/tunctl.c *.[ch] lib/*.[ch]
+	scripts/single.sh tunctl
+
+test_tunctl:
+	scripts/test.sh tunctl
+
+acpi: toys/other/acpi.c *.[ch] lib/*.[ch]
+	scripts/single.sh acpi
+
+test_acpi:
+	scripts/test.sh acpi
+
+ascii: toys/other/ascii.c *.[ch] lib/*.[ch]
+	scripts/single.sh ascii
+
+test_ascii:
+	scripts/test.sh ascii
+
+base64: toys/other/base64.c *.[ch] lib/*.[ch]
+	scripts/single.sh base64
+
+test_base64:
+	scripts/test.sh base64
+
+blkid: toys/other/blkid.c *.[ch] lib/*.[ch]
+	scripts/single.sh blkid
+
+test_blkid:
+	scripts/test.sh blkid
+
+fstype: toys/other/blkid.c *.[ch] lib/*.[ch]
+	scripts/single.sh fstype
+
+test_fstype:
+	scripts/test.sh fstype
+
+blockdev: toys/other/blockdev.c *.[ch] lib/*.[ch]
+	scripts/single.sh blockdev
+
+test_blockdev:
+	scripts/test.sh blockdev
+
+bzcat: toys/other/bzcat.c *.[ch] lib/*.[ch]
+	scripts/single.sh bzcat
+
+test_bzcat:
+	scripts/test.sh bzcat
+
+bunzip2: toys/other/bzcat.c *.[ch] lib/*.[ch]
+	scripts/single.sh bunzip2
+
+test_bunzip2:
+	scripts/test.sh bunzip2
+
+chcon: toys/other/chcon.c *.[ch] lib/*.[ch]
+	scripts/single.sh chcon
+
+test_chcon:
+	scripts/test.sh chcon
+
+chroot: toys/other/chroot.c *.[ch] lib/*.[ch]
+	scripts/single.sh chroot
+
+test_chroot:
+	scripts/test.sh chroot
+
+chrt: toys/other/chrt.c *.[ch] lib/*.[ch]
+	scripts/single.sh chrt
+
+test_chrt:
+	scripts/test.sh chrt
+
+chvt: toys/other/chvt.c *.[ch] lib/*.[ch]
+	scripts/single.sh chvt
+
+test_chvt:
+	scripts/test.sh chvt
+
+clear: toys/other/clear.c *.[ch] lib/*.[ch]
+	scripts/single.sh clear
+
+test_clear:
+	scripts/test.sh clear
+
+count: toys/other/count.c *.[ch] lib/*.[ch]
+	scripts/single.sh count
+
+test_count:
+	scripts/test.sh count
+
+dos2unix: toys/other/dos2unix.c *.[ch] lib/*.[ch]
+	scripts/single.sh dos2unix
+
+test_dos2unix:
+	scripts/test.sh dos2unix
+
+unix2dos: toys/other/dos2unix.c *.[ch] lib/*.[ch]
+	scripts/single.sh unix2dos
+
+test_unix2dos:
+	scripts/test.sh unix2dos
+
+eject: toys/other/eject.c *.[ch] lib/*.[ch]
+	scripts/single.sh eject
+
+test_eject:
+	scripts/test.sh eject
+
+factor: toys/other/factor.c *.[ch] lib/*.[ch]
+	scripts/single.sh factor
+
+test_factor:
+	scripts/test.sh factor
+
+fallocate: toys/other/fallocate.c *.[ch] lib/*.[ch]
+	scripts/single.sh fallocate
+
+test_fallocate:
+	scripts/test.sh fallocate
+
+flock: toys/other/flock.c *.[ch] lib/*.[ch]
+	scripts/single.sh flock
+
+test_flock:
+	scripts/test.sh flock
+
+free: toys/other/free.c *.[ch] lib/*.[ch]
+	scripts/single.sh free
+
+test_free:
+	scripts/test.sh free
+
+freeramdisk: toys/other/freeramdisk.c *.[ch] lib/*.[ch]
+	scripts/single.sh freeramdisk
+
+test_freeramdisk:
+	scripts/test.sh freeramdisk
+
+fsfreeze: toys/other/fsfreeze.c *.[ch] lib/*.[ch]
+	scripts/single.sh fsfreeze
+
+test_fsfreeze:
+	scripts/test.sh fsfreeze
+
+fsync: toys/other/fsync.c *.[ch] lib/*.[ch]
+	scripts/single.sh fsync
+
+test_fsync:
+	scripts/test.sh fsync
+
+hexedit: toys/other/hexedit.c *.[ch] lib/*.[ch]
+	scripts/single.sh hexedit
+
+test_hexedit:
+	scripts/test.sh hexedit
+
+hwclock: toys/other/hwclock.c *.[ch] lib/*.[ch]
+	scripts/single.sh hwclock
+
+test_hwclock:
+	scripts/test.sh hwclock
+
+inotifyd: toys/other/inotifyd.c *.[ch] lib/*.[ch]
+	scripts/single.sh inotifyd
+
+test_inotifyd:
+	scripts/test.sh inotifyd
+
+insmod: toys/other/insmod.c *.[ch] lib/*.[ch]
+	scripts/single.sh insmod
+
+test_insmod:
+	scripts/test.sh insmod
+
+ionice: toys/other/ionice.c *.[ch] lib/*.[ch]
+	scripts/single.sh ionice
+
+test_ionice:
+	scripts/test.sh ionice
+
+iorenice: toys/other/ionice.c *.[ch] lib/*.[ch]
+	scripts/single.sh iorenice
+
+test_iorenice:
+	scripts/test.sh iorenice
+
+login: toys/other/login.c *.[ch] lib/*.[ch]
+	scripts/single.sh login
+
+test_login:
+	scripts/test.sh login
+
+losetup: toys/other/losetup.c *.[ch] lib/*.[ch]
+	scripts/single.sh losetup
+
+test_losetup:
+	scripts/test.sh losetup
+
+lsattr: toys/other/lsattr.c *.[ch] lib/*.[ch]
+	scripts/single.sh lsattr
+
+test_lsattr:
+	scripts/test.sh lsattr
+
+chattr: toys/other/lsattr.c *.[ch] lib/*.[ch]
+	scripts/single.sh chattr
+
+test_chattr:
+	scripts/test.sh chattr
+
+lsmod: toys/other/lsmod.c *.[ch] lib/*.[ch]
+	scripts/single.sh lsmod
+
+test_lsmod:
+	scripts/test.sh lsmod
+
+lspci: toys/other/lspci.c *.[ch] lib/*.[ch]
+	scripts/single.sh lspci
+
+test_lspci:
+	scripts/test.sh lspci
+
+lsusb: toys/other/lsusb.c *.[ch] lib/*.[ch]
+	scripts/single.sh lsusb
+
+test_lsusb:
+	scripts/test.sh lsusb
+
+makedevs: toys/other/makedevs.c *.[ch] lib/*.[ch]
+	scripts/single.sh makedevs
+
+test_makedevs:
+	scripts/test.sh makedevs
+
+mix: toys/other/mix.c *.[ch] lib/*.[ch]
+	scripts/single.sh mix
+
+test_mix:
+	scripts/test.sh mix
+
+mkpasswd: toys/other/mkpasswd.c *.[ch] lib/*.[ch]
+	scripts/single.sh mkpasswd
+
+test_mkpasswd:
+	scripts/test.sh mkpasswd
+
+mkswap: toys/other/mkswap.c *.[ch] lib/*.[ch]
+	scripts/single.sh mkswap
+
+test_mkswap:
+	scripts/test.sh mkswap
+
+modinfo: toys/other/modinfo.c *.[ch] lib/*.[ch]
+	scripts/single.sh modinfo
+
+test_modinfo:
+	scripts/test.sh modinfo
+
+mountpoint: toys/other/mountpoint.c *.[ch] lib/*.[ch]
+	scripts/single.sh mountpoint
+
+test_mountpoint:
+	scripts/test.sh mountpoint
+
+nbd-client: toys/other/nbd_client.c *.[ch] lib/*.[ch]
+	scripts/single.sh nbd-client
+
+test_nbd-client:
+	scripts/test.sh nbd-client
+
+nsenter: toys/other/nsenter.c *.[ch] lib/*.[ch]
+	scripts/single.sh nsenter
+
+test_nsenter:
+	scripts/test.sh nsenter
+
+unshare: toys/other/nsenter.c *.[ch] lib/*.[ch]
+	scripts/single.sh unshare
+
+test_unshare:
+	scripts/test.sh unshare
+
+oneit: toys/other/oneit.c *.[ch] lib/*.[ch]
+	scripts/single.sh oneit
+
+test_oneit:
+	scripts/test.sh oneit
+
+partprobe: toys/other/partprobe.c *.[ch] lib/*.[ch]
+	scripts/single.sh partprobe
+
+test_partprobe:
+	scripts/test.sh partprobe
+
+pivot_root: toys/other/pivot_root.c *.[ch] lib/*.[ch]
+	scripts/single.sh pivot_root
+
+test_pivot_root:
+	scripts/test.sh pivot_root
+
+pmap: toys/other/pmap.c *.[ch] lib/*.[ch]
+	scripts/single.sh pmap
+
+test_pmap:
+	scripts/test.sh pmap
+
+printenv: toys/other/printenv.c *.[ch] lib/*.[ch]
+	scripts/single.sh printenv
+
+test_printenv:
+	scripts/test.sh printenv
+
+pwdx: toys/other/pwdx.c *.[ch] lib/*.[ch]
+	scripts/single.sh pwdx
+
+test_pwdx:
+	scripts/test.sh pwdx
+
+readahead: toys/other/readahead.c *.[ch] lib/*.[ch]
+	scripts/single.sh readahead
+
+test_readahead:
+	scripts/test.sh readahead
+
+readlink: toys/other/readlink.c *.[ch] lib/*.[ch]
+	scripts/single.sh readlink
+
+test_readlink:
+	scripts/test.sh readlink
+
+realpath: toys/other/realpath.c *.[ch] lib/*.[ch]
+	scripts/single.sh realpath
+
+test_realpath:
+	scripts/test.sh realpath
+
+reboot: toys/other/reboot.c *.[ch] lib/*.[ch]
+	scripts/single.sh reboot
+
+test_reboot:
+	scripts/test.sh reboot
+
+halt: toys/other/reboot.c *.[ch] lib/*.[ch]
+	scripts/single.sh halt
+
+test_halt:
+	scripts/test.sh halt
+
+poweroff: toys/other/reboot.c *.[ch] lib/*.[ch]
+	scripts/single.sh poweroff
+
+test_poweroff:
+	scripts/test.sh poweroff
+
+reset: toys/other/reset.c *.[ch] lib/*.[ch]
+	scripts/single.sh reset
+
+test_reset:
+	scripts/test.sh reset
+
+rev: toys/other/rev.c *.[ch] lib/*.[ch]
+	scripts/single.sh rev
+
+test_rev:
+	scripts/test.sh rev
+
+rmmod: toys/other/rmmod.c *.[ch] lib/*.[ch]
+	scripts/single.sh rmmod
+
+test_rmmod:
+	scripts/test.sh rmmod
+
+setsid: toys/other/setsid.c *.[ch] lib/*.[ch]
+	scripts/single.sh setsid
+
+test_setsid:
+	scripts/test.sh setsid
+
+shred: toys/other/shred.c *.[ch] lib/*.[ch]
+	scripts/single.sh shred
+
+test_shred:
+	scripts/test.sh shred
+
+stat: toys/other/stat.c *.[ch] lib/*.[ch]
+	scripts/single.sh stat
+
+test_stat:
+	scripts/test.sh stat
+
+swapoff: toys/other/swapoff.c *.[ch] lib/*.[ch]
+	scripts/single.sh swapoff
+
+test_swapoff:
+	scripts/test.sh swapoff
+
+swapon: toys/other/swapon.c *.[ch] lib/*.[ch]
+	scripts/single.sh swapon
+
+test_swapon:
+	scripts/test.sh swapon
+
+switch_root: toys/other/switch_root.c *.[ch] lib/*.[ch]
+	scripts/single.sh switch_root
+
+test_switch_root:
+	scripts/test.sh switch_root
+
+sysctl: toys/other/sysctl.c *.[ch] lib/*.[ch]
+	scripts/single.sh sysctl
+
+test_sysctl:
+	scripts/test.sh sysctl
+
+tac: toys/other/tac.c *.[ch] lib/*.[ch]
+	scripts/single.sh tac
+
+test_tac:
+	scripts/test.sh tac
+
+taskset: toys/other/taskset.c *.[ch] lib/*.[ch]
+	scripts/single.sh taskset
+
+test_taskset:
+	scripts/test.sh taskset
+
+nproc: toys/other/taskset.c *.[ch] lib/*.[ch]
+	scripts/single.sh nproc
+
+test_nproc:
+	scripts/test.sh nproc
+
+timeout: toys/other/timeout.c *.[ch] lib/*.[ch]
+	scripts/single.sh timeout
+
+test_timeout:
+	scripts/test.sh timeout
+
+truncate: toys/other/truncate.c *.[ch] lib/*.[ch]
+	scripts/single.sh truncate
+
+test_truncate:
+	scripts/test.sh truncate
+
+uptime: toys/other/uptime.c *.[ch] lib/*.[ch]
+	scripts/single.sh uptime
+
+test_uptime:
+	scripts/test.sh uptime
+
+usleep: toys/other/usleep.c *.[ch] lib/*.[ch]
+	scripts/single.sh usleep
+
+test_usleep:
+	scripts/test.sh usleep
+
+vconfig: toys/other/vconfig.c *.[ch] lib/*.[ch]
+	scripts/single.sh vconfig
+
+test_vconfig:
+	scripts/test.sh vconfig
+
+vmstat: toys/other/vmstat.c *.[ch] lib/*.[ch]
+	scripts/single.sh vmstat
+
+test_vmstat:
+	scripts/test.sh vmstat
+
+w: toys/other/w.c *.[ch] lib/*.[ch]
+	scripts/single.sh w
+
+test_w:
+	scripts/test.sh w
+
+which: toys/other/which.c *.[ch] lib/*.[ch]
+	scripts/single.sh which
+
+test_which:
+	scripts/test.sh which
+
+xxd: toys/other/xxd.c *.[ch] lib/*.[ch]
+	scripts/single.sh xxd
+
+test_xxd:
+	scripts/test.sh xxd
+
+yes: toys/other/yes.c *.[ch] lib/*.[ch]
+	scripts/single.sh yes
+
+test_yes:
+	scripts/test.sh yes
+
+arp: toys/pending/arp.c *.[ch] lib/*.[ch]
+	scripts/single.sh arp
+
+test_arp:
+	scripts/test.sh arp
+
+arping: toys/pending/arping.c *.[ch] lib/*.[ch]
+	scripts/single.sh arping
+
+test_arping:
+	scripts/test.sh arping
+
+bootchartd: toys/pending/bootchartd.c *.[ch] lib/*.[ch]
+	scripts/single.sh bootchartd
+
+test_bootchartd:
+	scripts/test.sh bootchartd
+
+brctl: toys/pending/brctl.c *.[ch] lib/*.[ch]
+	scripts/single.sh brctl
+
+test_brctl:
+	scripts/test.sh brctl
+
+compress: toys/pending/compress.c *.[ch] lib/*.[ch]
+	scripts/single.sh compress
+
+test_compress:
+	scripts/test.sh compress
+
+crond: toys/pending/crond.c *.[ch] lib/*.[ch]
+	scripts/single.sh crond
+
+test_crond:
+	scripts/test.sh crond
+
+crontab: toys/pending/crontab.c *.[ch] lib/*.[ch]
+	scripts/single.sh crontab
+
+test_crontab:
+	scripts/test.sh crontab
+
+dd: toys/pending/dd.c *.[ch] lib/*.[ch]
+	scripts/single.sh dd
+
+test_dd:
+	scripts/test.sh dd
+
+dhcp: toys/pending/dhcp.c *.[ch] lib/*.[ch]
+	scripts/single.sh dhcp
+
+test_dhcp:
+	scripts/test.sh dhcp
+
+dhcp6: toys/pending/dhcp6.c *.[ch] lib/*.[ch]
+	scripts/single.sh dhcp6
+
+test_dhcp6:
+	scripts/test.sh dhcp6
+
+dhcpd: toys/pending/dhcpd.c *.[ch] lib/*.[ch]
+	scripts/single.sh dhcpd
+
+test_dhcpd:
+	scripts/test.sh dhcpd
+
+diff: toys/pending/diff.c *.[ch] lib/*.[ch]
+	scripts/single.sh diff
+
+test_diff:
+	scripts/test.sh diff
+
+dumpleases: toys/pending/dumpleases.c *.[ch] lib/*.[ch]
+	scripts/single.sh dumpleases
+
+test_dumpleases:
+	scripts/test.sh dumpleases
+
+expr: toys/pending/expr.c *.[ch] lib/*.[ch]
+	scripts/single.sh expr
+
+test_expr:
+	scripts/test.sh expr
+
+fdisk: toys/pending/fdisk.c *.[ch] lib/*.[ch]
+	scripts/single.sh fdisk
+
+test_fdisk:
+	scripts/test.sh fdisk
+
+fold: toys/pending/fold.c *.[ch] lib/*.[ch]
+	scripts/single.sh fold
+
+test_fold:
+	scripts/test.sh fold
+
+fsck: toys/pending/fsck.c *.[ch] lib/*.[ch]
+	scripts/single.sh fsck
+
+test_fsck:
+	scripts/test.sh fsck
+
+getfattr: toys/pending/getfattr.c *.[ch] lib/*.[ch]
+	scripts/single.sh getfattr
+
+test_getfattr:
+	scripts/test.sh getfattr
+
+getty: toys/pending/getty.c *.[ch] lib/*.[ch]
+	scripts/single.sh getty
+
+test_getty:
+	scripts/test.sh getty
+
+groupadd: toys/pending/groupadd.c *.[ch] lib/*.[ch]
+	scripts/single.sh groupadd
+
+test_groupadd:
+	scripts/test.sh groupadd
+
+addgroup: toys/pending/groupadd.c *.[ch] lib/*.[ch]
+	scripts/single.sh addgroup
+
+test_addgroup:
+	scripts/test.sh addgroup
+
+groupdel: toys/pending/groupdel.c *.[ch] lib/*.[ch]
+	scripts/single.sh groupdel
+
+test_groupdel:
+	scripts/test.sh groupdel
+
+delgroup: toys/pending/groupdel.c *.[ch] lib/*.[ch]
+	scripts/single.sh delgroup
+
+test_delgroup:
+	scripts/test.sh delgroup
+
+gzip: toys/pending/gzip.c *.[ch] lib/*.[ch]
+	scripts/single.sh gzip
+
+test_gzip:
+	scripts/test.sh gzip
+
+gunzip: toys/pending/gzip.c *.[ch] lib/*.[ch]
+	scripts/single.sh gunzip
+
+test_gunzip:
+	scripts/test.sh gunzip
+
+zcat: toys/pending/gzip.c *.[ch] lib/*.[ch]
+	scripts/single.sh zcat
+
+test_zcat:
+	scripts/test.sh zcat
+
+host: toys/pending/host.c *.[ch] lib/*.[ch]
+	scripts/single.sh host
+
+test_host:
+	scripts/test.sh host
+
+iconv: toys/pending/iconv.c *.[ch] lib/*.[ch]
+	scripts/single.sh iconv
+
+test_iconv:
+	scripts/test.sh iconv
+
+init: toys/pending/init.c *.[ch] lib/*.[ch]
+	scripts/single.sh init
+
+test_init:
+	scripts/test.sh init
+
+ip: toys/pending/ip.c *.[ch] lib/*.[ch]
+	scripts/single.sh ip
+
+test_ip:
+	scripts/test.sh ip
+
+ipaddr: toys/pending/ip.c *.[ch] lib/*.[ch]
+	scripts/single.sh ipaddr
+
+test_ipaddr:
+	scripts/test.sh ipaddr
+
+iplink: toys/pending/ip.c *.[ch] lib/*.[ch]
+	scripts/single.sh iplink
+
+test_iplink:
+	scripts/test.sh iplink
+
+iproute: toys/pending/ip.c *.[ch] lib/*.[ch]
+	scripts/single.sh iproute
+
+test_iproute:
+	scripts/test.sh iproute
+
+iprule: toys/pending/ip.c *.[ch] lib/*.[ch]
+	scripts/single.sh iprule
+
+test_iprule:
+	scripts/test.sh iprule
+
+iptunnel: toys/pending/ip.c *.[ch] lib/*.[ch]
+	scripts/single.sh iptunnel
+
+test_iptunnel:
+	scripts/test.sh iptunnel
+
+ipcrm: toys/pending/ipcrm.c *.[ch] lib/*.[ch]
+	scripts/single.sh ipcrm
+
+test_ipcrm:
+	scripts/test.sh ipcrm
+
+ipcs: toys/pending/ipcs.c *.[ch] lib/*.[ch]
+	scripts/single.sh ipcs
+
+test_ipcs:
+	scripts/test.sh ipcs
+
+klogd: toys/pending/klogd.c *.[ch] lib/*.[ch]
+	scripts/single.sh klogd
+
+test_klogd:
+	scripts/test.sh klogd
+
+last: toys/pending/last.c *.[ch] lib/*.[ch]
+	scripts/single.sh last
+
+test_last:
+	scripts/test.sh last
+
+logger: toys/pending/logger.c *.[ch] lib/*.[ch]
+	scripts/single.sh logger
+
+test_logger:
+	scripts/test.sh logger
+
+lsof: toys/pending/lsof.c *.[ch] lib/*.[ch]
+	scripts/single.sh lsof
+
+test_lsof:
+	scripts/test.sh lsof
+
+mdev: toys/pending/mdev.c *.[ch] lib/*.[ch]
+	scripts/single.sh mdev
+
+test_mdev:
+	scripts/test.sh mdev
+
+mke2fs: toys/pending/mke2fs.c *.[ch] lib/*.[ch]
+	scripts/single.sh mke2fs
+
+test_mke2fs:
+	scripts/test.sh mke2fs
+
+modprobe: toys/pending/modprobe.c *.[ch] lib/*.[ch]
+	scripts/single.sh modprobe
+
+test_modprobe:
+	scripts/test.sh modprobe
+
+more: toys/pending/more.c *.[ch] lib/*.[ch]
+	scripts/single.sh more
+
+test_more:
+	scripts/test.sh more
+
+openvt: toys/pending/openvt.c *.[ch] lib/*.[ch]
+	scripts/single.sh openvt
+
+test_openvt:
+	scripts/test.sh openvt
+
+deallocvt: toys/pending/openvt.c *.[ch] lib/*.[ch]
+	scripts/single.sh deallocvt
+
+test_deallocvt:
+	scripts/test.sh deallocvt
+
+ping: toys/pending/ping.c *.[ch] lib/*.[ch]
+	scripts/single.sh ping
+
+test_ping:
+	scripts/test.sh ping
+
+route: toys/pending/route.c *.[ch] lib/*.[ch]
+	scripts/single.sh route
+
+test_route:
+	scripts/test.sh route
+
+setfattr: toys/pending/setfattr.c *.[ch] lib/*.[ch]
+	scripts/single.sh setfattr
+
+test_setfattr:
+	scripts/test.sh setfattr
+
+sh: toys/pending/sh.c *.[ch] lib/*.[ch]
+	scripts/single.sh sh
+
+test_sh:
+	scripts/test.sh sh
+
+toysh: toys/pending/sh.c *.[ch] lib/*.[ch]
+	scripts/single.sh toysh
+
+test_toysh:
+	scripts/test.sh toysh
+
+sulogin: toys/pending/sulogin.c *.[ch] lib/*.[ch]
+	scripts/single.sh sulogin
+
+test_sulogin:
+	scripts/test.sh sulogin
+
+syslogd: toys/pending/syslogd.c *.[ch] lib/*.[ch]
+	scripts/single.sh syslogd
+
+test_syslogd:
+	scripts/test.sh syslogd
+
+tar: toys/pending/tar.c *.[ch] lib/*.[ch]
+	scripts/single.sh tar
+
+test_tar:
+	scripts/test.sh tar
+
+tcpsvd: toys/pending/tcpsvd.c *.[ch] lib/*.[ch]
+	scripts/single.sh tcpsvd
+
+test_tcpsvd:
+	scripts/test.sh tcpsvd
+
+udpsvd: toys/pending/tcpsvd.c *.[ch] lib/*.[ch]
+	scripts/single.sh udpsvd
+
+test_udpsvd:
+	scripts/test.sh udpsvd
+
+telnet: toys/pending/telnet.c *.[ch] lib/*.[ch]
+	scripts/single.sh telnet
+
+test_telnet:
+	scripts/test.sh telnet
+
+telnetd: toys/pending/telnetd.c *.[ch] lib/*.[ch]
+	scripts/single.sh telnetd
+
+test_telnetd:
+	scripts/test.sh telnetd
+
+test: toys/pending/test.c *.[ch] lib/*.[ch]
+	scripts/single.sh test
+
+test_test:
+	scripts/test.sh test
+
+tftp: toys/pending/tftp.c *.[ch] lib/*.[ch]
+	scripts/single.sh tftp
+
+test_tftp:
+	scripts/test.sh tftp
+
+tftpd: toys/pending/tftpd.c *.[ch] lib/*.[ch]
+	scripts/single.sh tftpd
+
+test_tftpd:
+	scripts/test.sh tftpd
+
+tr: toys/pending/tr.c *.[ch] lib/*.[ch]
+	scripts/single.sh tr
+
+test_tr:
+	scripts/test.sh tr
+
+traceroute: toys/pending/traceroute.c *.[ch] lib/*.[ch]
+	scripts/single.sh traceroute
+
+test_traceroute:
+	scripts/test.sh traceroute
+
+traceroute6: toys/pending/traceroute.c *.[ch] lib/*.[ch]
+	scripts/single.sh traceroute6
+
+test_traceroute6:
+	scripts/test.sh traceroute6
+
+useradd: toys/pending/useradd.c *.[ch] lib/*.[ch]
+	scripts/single.sh useradd
+
+test_useradd:
+	scripts/test.sh useradd
+
+adduser: toys/pending/useradd.c *.[ch] lib/*.[ch]
+	scripts/single.sh adduser
+
+test_adduser:
+	scripts/test.sh adduser
+
+userdel: toys/pending/userdel.c *.[ch] lib/*.[ch]
+	scripts/single.sh userdel
+
+test_userdel:
+	scripts/test.sh userdel
+
+deluser: toys/pending/userdel.c *.[ch] lib/*.[ch]
+	scripts/single.sh deluser
+
+test_deluser:
+	scripts/test.sh deluser
+
+vi: toys/pending/vi.c *.[ch] lib/*.[ch]
+	scripts/single.sh vi
+
+test_vi:
+	scripts/test.sh vi
+
+watch: toys/pending/watch.c *.[ch] lib/*.[ch]
+	scripts/single.sh watch
+
+test_watch:
+	scripts/test.sh watch
+
+wget: toys/pending/wget.c *.[ch] lib/*.[ch]
+	scripts/single.sh wget
+
+test_wget:
+	scripts/test.sh wget
+
+xzcat: toys/pending/xzcat.c *.[ch] lib/*.[ch]
+	scripts/single.sh xzcat
+
+test_xzcat:
+	scripts/test.sh xzcat
+
+basename: toys/posix/basename.c *.[ch] lib/*.[ch]
+	scripts/single.sh basename
+
+test_basename:
+	scripts/test.sh basename
+
+cal: toys/posix/cal.c *.[ch] lib/*.[ch]
+	scripts/single.sh cal
+
+test_cal:
+	scripts/test.sh cal
+
+cat: toys/posix/cat.c *.[ch] lib/*.[ch]
+	scripts/single.sh cat
+
+test_cat:
+	scripts/test.sh cat
+
+catv: toys/posix/cat.c *.[ch] lib/*.[ch]
+	scripts/single.sh catv
+
+test_catv:
+	scripts/test.sh catv
+
+chgrp: toys/posix/chgrp.c *.[ch] lib/*.[ch]
+	scripts/single.sh chgrp
+
+test_chgrp:
+	scripts/test.sh chgrp
+
+chown: toys/posix/chgrp.c *.[ch] lib/*.[ch]
+	scripts/single.sh chown
+
+test_chown:
+	scripts/test.sh chown
+
+chmod: toys/posix/chmod.c *.[ch] lib/*.[ch]
+	scripts/single.sh chmod
+
+test_chmod:
+	scripts/test.sh chmod
+
+cksum: toys/posix/cksum.c *.[ch] lib/*.[ch]
+	scripts/single.sh cksum
+
+test_cksum:
+	scripts/test.sh cksum
+
+cmp: toys/posix/cmp.c *.[ch] lib/*.[ch]
+	scripts/single.sh cmp
+
+test_cmp:
+	scripts/test.sh cmp
+
+comm: toys/posix/comm.c *.[ch] lib/*.[ch]
+	scripts/single.sh comm
+
+test_comm:
+	scripts/test.sh comm
+
+cp: toys/posix/cp.c *.[ch] lib/*.[ch]
+	scripts/single.sh cp
+
+test_cp:
+	scripts/test.sh cp
+
+mv: toys/posix/cp.c *.[ch] lib/*.[ch]
+	scripts/single.sh mv
+
+test_mv:
+	scripts/test.sh mv
+
+cpio: toys/posix/cpio.c *.[ch] lib/*.[ch]
+	scripts/single.sh cpio
+
+test_cpio:
+	scripts/test.sh cpio
+
+cut: toys/posix/cut.c *.[ch] lib/*.[ch]
+	scripts/single.sh cut
+
+test_cut:
+	scripts/test.sh cut
+
+date: toys/posix/date.c *.[ch] lib/*.[ch]
+	scripts/single.sh date
+
+test_date:
+	scripts/test.sh date
+
+df: toys/posix/df.c *.[ch] lib/*.[ch]
+	scripts/single.sh df
+
+test_df:
+	scripts/test.sh df
+
+dirname: toys/posix/dirname.c *.[ch] lib/*.[ch]
+	scripts/single.sh dirname
+
+test_dirname:
+	scripts/test.sh dirname
+
+du: toys/posix/du.c *.[ch] lib/*.[ch]
+	scripts/single.sh du
+
+test_du:
+	scripts/test.sh du
+
+echo: toys/posix/echo.c *.[ch] lib/*.[ch]
+	scripts/single.sh echo
+
+test_echo:
+	scripts/test.sh echo
+
+env: toys/posix/env.c *.[ch] lib/*.[ch]
+	scripts/single.sh env
+
+test_env:
+	scripts/test.sh env
+
+expand: toys/posix/expand.c *.[ch] lib/*.[ch]
+	scripts/single.sh expand
+
+test_expand:
+	scripts/test.sh expand
+
+false: toys/posix/false.c *.[ch] lib/*.[ch]
+	scripts/single.sh false
+
+test_false:
+	scripts/test.sh false
+
+file: toys/posix/file.c *.[ch] lib/*.[ch]
+	scripts/single.sh file
+
+test_file:
+	scripts/test.sh file
+
+find: toys/posix/find.c *.[ch] lib/*.[ch]
+	scripts/single.sh find
+
+test_find:
+	scripts/test.sh find
+
+grep: toys/posix/grep.c *.[ch] lib/*.[ch]
+	scripts/single.sh grep
+
+test_grep:
+	scripts/test.sh grep
+
+egrep: toys/posix/grep.c *.[ch] lib/*.[ch]
+	scripts/single.sh egrep
+
+test_egrep:
+	scripts/test.sh egrep
+
+fgrep: toys/posix/grep.c *.[ch] lib/*.[ch]
+	scripts/single.sh fgrep
+
+test_fgrep:
+	scripts/test.sh fgrep
+
+head: toys/posix/head.c *.[ch] lib/*.[ch]
+	scripts/single.sh head
+
+test_head:
+	scripts/test.sh head
+
+id: toys/posix/id.c *.[ch] lib/*.[ch]
+	scripts/single.sh id
+
+test_id:
+	scripts/test.sh id
+
+groups: toys/posix/id.c *.[ch] lib/*.[ch]
+	scripts/single.sh groups
+
+test_groups:
+	scripts/test.sh groups
+
+logname: toys/posix/id.c *.[ch] lib/*.[ch]
+	scripts/single.sh logname
+
+test_logname:
+	scripts/test.sh logname
+
+whoami: toys/posix/id.c *.[ch] lib/*.[ch]
+	scripts/single.sh whoami
+
+test_whoami:
+	scripts/test.sh whoami
+
+kill: toys/posix/kill.c *.[ch] lib/*.[ch]
+	scripts/single.sh kill
+
+test_kill:
+	scripts/test.sh kill
+
+killall5: toys/posix/kill.c *.[ch] lib/*.[ch]
+	scripts/single.sh killall5
+
+test_killall5:
+	scripts/test.sh killall5
+
+link: toys/posix/link.c *.[ch] lib/*.[ch]
+	scripts/single.sh link
+
+test_link:
+	scripts/test.sh link
+
+ln: toys/posix/ln.c *.[ch] lib/*.[ch]
+	scripts/single.sh ln
+
+test_ln:
+	scripts/test.sh ln
+
+ls: toys/posix/ls.c *.[ch] lib/*.[ch]
+	scripts/single.sh ls
+
+test_ls:
+	scripts/test.sh ls
+
+mkdir: toys/posix/mkdir.c *.[ch] lib/*.[ch]
+	scripts/single.sh mkdir
+
+test_mkdir:
+	scripts/test.sh mkdir
+
+mkfifo: toys/posix/mkfifo.c *.[ch] lib/*.[ch]
+	scripts/single.sh mkfifo
+
+test_mkfifo:
+	scripts/test.sh mkfifo
+
+nice: toys/posix/nice.c *.[ch] lib/*.[ch]
+	scripts/single.sh nice
+
+test_nice:
+	scripts/test.sh nice
+
+nl: toys/posix/nl.c *.[ch] lib/*.[ch]
+	scripts/single.sh nl
+
+test_nl:
+	scripts/test.sh nl
+
+nohup: toys/posix/nohup.c *.[ch] lib/*.[ch]
+	scripts/single.sh nohup
+
+test_nohup:
+	scripts/test.sh nohup
+
+od: toys/posix/od.c *.[ch] lib/*.[ch]
+	scripts/single.sh od
+
+test_od:
+	scripts/test.sh od
+
+paste: toys/posix/paste.c *.[ch] lib/*.[ch]
+	scripts/single.sh paste
+
+test_paste:
+	scripts/test.sh paste
+
+patch: toys/posix/patch.c *.[ch] lib/*.[ch]
+	scripts/single.sh patch
+
+test_patch:
+	scripts/test.sh patch
+
+printf: toys/posix/printf.c *.[ch] lib/*.[ch]
+	scripts/single.sh printf
+
+test_printf:
+	scripts/test.sh printf
+
+ps: toys/posix/ps.c *.[ch] lib/*.[ch]
+	scripts/single.sh ps
+
+test_ps:
+	scripts/test.sh ps
+
+top: toys/posix/ps.c *.[ch] lib/*.[ch]
+	scripts/single.sh top
+
+test_top:
+	scripts/test.sh top
+
+iotop: toys/posix/ps.c *.[ch] lib/*.[ch]
+	scripts/single.sh iotop
+
+test_iotop:
+	scripts/test.sh iotop
+
+pgrep: toys/posix/ps.c *.[ch] lib/*.[ch]
+	scripts/single.sh pgrep
+
+test_pgrep:
+	scripts/test.sh pgrep
+
+pkill: toys/posix/ps.c *.[ch] lib/*.[ch]
+	scripts/single.sh pkill
+
+test_pkill:
+	scripts/test.sh pkill
+
+pwd: toys/posix/pwd.c *.[ch] lib/*.[ch]
+	scripts/single.sh pwd
+
+test_pwd:
+	scripts/test.sh pwd
+
+renice: toys/posix/renice.c *.[ch] lib/*.[ch]
+	scripts/single.sh renice
+
+test_renice:
+	scripts/test.sh renice
+
+rm: toys/posix/rm.c *.[ch] lib/*.[ch]
+	scripts/single.sh rm
+
+test_rm:
+	scripts/test.sh rm
+
+rmdir: toys/posix/rmdir.c *.[ch] lib/*.[ch]
+	scripts/single.sh rmdir
+
+test_rmdir:
+	scripts/test.sh rmdir
+
+sed: toys/posix/sed.c *.[ch] lib/*.[ch]
+	scripts/single.sh sed
+
+test_sed:
+	scripts/test.sh sed
+
+sleep: toys/posix/sleep.c *.[ch] lib/*.[ch]
+	scripts/single.sh sleep
+
+test_sleep:
+	scripts/test.sh sleep
+
+sort: toys/posix/sort.c *.[ch] lib/*.[ch]
+	scripts/single.sh sort
+
+test_sort:
+	scripts/test.sh sort
+
+split: toys/posix/split.c *.[ch] lib/*.[ch]
+	scripts/single.sh split
+
+test_split:
+	scripts/test.sh split
+
+strings: toys/posix/strings.c *.[ch] lib/*.[ch]
+	scripts/single.sh strings
+
+test_strings:
+	scripts/test.sh strings
+
+tail: toys/posix/tail.c *.[ch] lib/*.[ch]
+	scripts/single.sh tail
+
+test_tail:
+	scripts/test.sh tail
+
+tee: toys/posix/tee.c *.[ch] lib/*.[ch]
+	scripts/single.sh tee
+
+test_tee:
+	scripts/test.sh tee
+
+time: toys/posix/time.c *.[ch] lib/*.[ch]
+	scripts/single.sh time
+
+test_time:
+	scripts/test.sh time
+
+touch: toys/posix/touch.c *.[ch] lib/*.[ch]
+	scripts/single.sh touch
+
+test_touch:
+	scripts/test.sh touch
+
+true: toys/posix/true.c *.[ch] lib/*.[ch]
+	scripts/single.sh true
+
+test_true:
+	scripts/test.sh true
+
+tty: toys/posix/tty.c *.[ch] lib/*.[ch]
+	scripts/single.sh tty
+
+test_tty:
+	scripts/test.sh tty
+
+ulimit: toys/posix/ulimit.c *.[ch] lib/*.[ch]
+	scripts/single.sh ulimit
+
+test_ulimit:
+	scripts/test.sh ulimit
+
+uname: toys/posix/uname.c *.[ch] lib/*.[ch]
+	scripts/single.sh uname
+
+test_uname:
+	scripts/test.sh uname
+
+uniq: toys/posix/uniq.c *.[ch] lib/*.[ch]
+	scripts/single.sh uniq
+
+test_uniq:
+	scripts/test.sh uniq
+
+unlink: toys/posix/unlink.c *.[ch] lib/*.[ch]
+	scripts/single.sh unlink
+
+test_unlink:
+	scripts/test.sh unlink
+
+uudecode: toys/posix/uudecode.c *.[ch] lib/*.[ch]
+	scripts/single.sh uudecode
+
+test_uudecode:
+	scripts/test.sh uudecode
+
+uuencode: toys/posix/uuencode.c *.[ch] lib/*.[ch]
+	scripts/single.sh uuencode
+
+test_uuencode:
+	scripts/test.sh uuencode
+
+wc: toys/posix/wc.c *.[ch] lib/*.[ch]
+	scripts/single.sh wc
+
+test_wc:
+	scripts/test.sh wc
+
+who: toys/posix/who.c *.[ch] lib/*.[ch]
+	scripts/single.sh who
+
+test_who:
+	scripts/test.sh who
+
+xargs: toys/posix/xargs.c *.[ch] lib/*.[ch]
+	scripts/single.sh xargs
+
+test_xargs:
+	scripts/test.sh xargs
+
+clean::
+	rm -f  getenforce getprop load_policy log restorecon runcon sendevent setenforce setprop start stop hello hostid skeleton skeleton_alias test_human_readable test_many_options test_scankey test_utf8towc dmesg hostname killall md5sum sha1sum sha224sum sha256sum sha384sum sha512sum mknod mktemp mount nfsmount passwd pidof seq su sync umount ftpget ftpput ifconfig microcom nc netcat netstat rfkill tunctl acpi ascii base64 blkid fstype blockdev bzcat bunzip2 chcon chroot chrt chvt clear count dos2unix unix2dos eject factor fallocate flock free freeramdisk fsfreeze fsync hexedit hwclock inotifyd insmod ionice iorenice login losetup lsattr chattr lsmod lspci lsusb makedevs mix mkpasswd mkswap modinfo mountpoint nbd-client nsenter unshare oneit partprobe pivot_root pmap printenv pwdx readahead readlink realpath reboot halt poweroff reset rev rmmod setsid shred stat swapoff swapon switch_root sysctl tac taskset nproc timeout truncate uptime usleep vconfig vmstat w which xxd yes basename cal cat catv chgrp chown chmod cksum cmp comm cp mv cpio cut date df dirname du echo env expand false file find grep egrep fgrep head id groups logname whoami kill killall5 link ln ls mkdir mkfifo nice nl nohup od paste patch printf ps top iotop pgrep pkill pwd renice rm rmdir sed sleep sort split strings tail tee time touch true tty ulimit uname uniq unlink uudecode uuencode wc who xargs  arp arping bootchartd brctl compress crond crontab dd dhcp dhcp6 dhcpd diff dumpleases expr fdisk fold fsck getfattr getty groupadd addgroup groupdel delgroup gzip gunzip zcat host iconv init ip ipaddr iplink iproute iprule iptunnel ipcrm ipcs klogd last logger lsof mdev mke2fs modprobe more openvt deallocvt ping route setfattr sh toysh sulogin syslogd tar tcpsvd udpsvd telnet telnetd test tftp tftpd tr traceroute traceroute6 useradd adduser userdel deluser vi watch wget xzcat
+list:
+	@echo acpi ascii base64 basename blkid blockdev bunzip2 bzcat cal cat catv chattr chcon chgrp chmod chown chroot chrt chvt cksum clear cmp comm count cp cpio cut date df dirname dmesg dos2unix du echo egrep eject env expand factor fallocate false fgrep file find flock free freeramdisk fsfreeze fstype fsync ftpget ftpput getenforce getprop grep groups halt head hello hexedit hostid hostname hwclock id ifconfig inotifyd insmod ionice iorenice iotop kill killall killall5 link ln load_policy log login logname losetup ls lsattr lsmod lspci lsusb makedevs md5sum microcom mix mkdir mkfifo mknod mkpasswd mkswap mktemp modinfo mount mountpoint mv nbd-client nc netcat netstat nfsmount nice nl nohup nproc nsenter od oneit partprobe passwd paste patch pgrep pidof pivot_root pkill pmap poweroff printenv printf ps pwd pwdx readahead readlink realpath reboot renice reset restorecon rev rfkill rm rmdir rmmod runcon sed sendevent seq setenforce setprop setsid sha1sum sha224sum sha256sum sha384sum sha512sum shred skeleton skeleton_alias sleep sort split start stat stop strings su swapoff swapon switch_root sync sysctl tac tail taskset tee test_human_readable test_many_options test_scankey test_utf8towc time timeout top touch true truncate tty tunctl ulimit umount uname uniq unix2dos unlink unshare uptime usleep uudecode uuencode vconfig vmstat w wc which who whoami xargs xxd yes
+list_pending:
+	@echo addgroup adduser arp arping bootchartd brctl compress crond crontab dd deallocvt delgroup deluser dhcp dhcp6 dhcpd diff dumpleases expr fdisk fold fsck getfattr getty groupadd groupdel gunzip gzip host iconv init ip ipaddr ipcrm ipcs iplink iproute iprule iptunnel klogd last logger lsof mdev mke2fs modprobe more openvt ping route setfattr sh sulogin syslogd tar tcpsvd telnet telnetd test tftp tftpd toysh tr traceroute traceroute6 udpsvd useradd userdel vi watch wget xzcat zcat
+.PHONY:  test_getenforce test_getprop test_load_policy test_log test_restorecon test_runcon test_sendevent test_setenforce test_setprop test_start test_stop test_hello test_hostid test_skeleton test_skeleton_alias test_test_human_readable test_test_many_options test_test_scankey test_test_utf8towc test_dmesg test_hostname test_killall test_md5sum test_sha1sum test_sha224sum test_sha256sum test_sha384sum test_sha512sum test_mknod test_mktemp test_mount test_nfsmount test_passwd test_pidof test_seq test_su test_sync test_umount test_ftpget test_ftpput test_ifconfig test_microcom test_nc test_netcat test_netstat test_rfkill test_tunctl test_acpi test_ascii test_base64 test_blkid test_fstype test_blockdev test_bzcat test_bunzip2 test_chcon test_chroot test_chrt test_chvt test_clear test_count test_dos2unix test_unix2dos test_eject test_factor test_fallocate test_flock test_free test_freeramdisk test_fsfreeze test_fsync test_hexedit test_hwclock test_inotifyd test_insmod test_ionice test_iorenice test_login test_losetup test_lsattr test_chattr test_lsmod test_lspci test_lsusb test_makedevs test_mix test_mkpasswd test_mkswap test_modinfo test_mountpoint test_nbd-client test_nsenter test_unshare test_oneit test_partprobe test_pivot_root test_pmap test_printenv test_pwdx test_readahead test_readlink test_realpath test_reboot test_halt test_poweroff test_reset test_rev test_rmmod test_setsid test_shred test_stat test_swapoff test_swapon test_switch_root test_sysctl test_tac test_taskset test_nproc test_timeout test_truncate test_uptime test_usleep test_vconfig test_vmstat test_w test_which test_xxd test_yes test_basename test_cal test_cat test_catv test_chgrp test_chown test_chmod test_cksum test_cmp test_comm test_cp test_mv test_cpio test_cut test_date test_df test_dirname test_du test_echo test_env test_expand test_false test_file test_find test_grep test_egrep test_fgrep test_head test_id test_groups test_logname test_whoami test_kill test_killall5 test_link test_ln test_ls test_mkdir test_mkfifo test_nice test_nl test_nohup test_od test_paste test_patch test_printf test_ps test_top test_iotop test_pgrep test_pkill test_pwd test_renice test_rm test_rmdir test_sed test_sleep test_sort test_split test_strings test_tail test_tee test_time test_touch test_true test_tty test_ulimit test_uname test_uniq test_unlink test_uudecode test_uuencode test_wc test_who test_xargs  test_arp test_arping test_bootchartd test_brctl test_compress test_crond test_crontab test_dd test_dhcp test_dhcp6 test_dhcpd test_diff test_dumpleases test_expr test_fdisk test_fold test_fsck test_getfattr test_getty test_groupadd test_addgroup test_groupdel test_delgroup test_gzip test_gunzip test_zcat test_host test_iconv test_init test_ip test_ipaddr test_iplink test_iproute test_iprule test_iptunnel test_ipcrm test_ipcs test_klogd test_last test_logger test_lsof test_mdev test_mke2fs test_modprobe test_more test_openvt test_deallocvt test_ping test_route test_setfattr test_sh test_toysh test_sulogin test_syslogd test_tar test_tcpsvd test_udpsvd test_telnet test_telnetd test_test test_tftp test_tftpd test_tr test_traceroute test_traceroute6 test_useradd test_adduser test_userdel test_deluser test_vi test_watch test_wget test_xzcat
