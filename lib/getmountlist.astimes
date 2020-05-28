@@ -1,2 +1,2 @@
 timing (loadFM, lexing, parsing, serialize, typechecking, init, casetermination, doublefree, uninitializedmemory, xfree, danglingswitchcode, cfginnonvoidfunc, checkstdlibfuncreturn, deadstore, interactiondegree, statistics)
-0;1499;11195;1697;1007;455;6;547;536;703;4;6;395;52;451;284
+0;1122;7264;797;796;381;3;413;343;281;2;3;379;36;248;206
